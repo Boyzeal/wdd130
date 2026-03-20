@@ -46,15 +46,3 @@ main {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-
-h1 {
-    color: grey;
-}
-
-main img {
-    width: auto;
-    height: auto;
-    border: #000;
-    padding: 1rem;
-    box-shadow: #000;
-}
