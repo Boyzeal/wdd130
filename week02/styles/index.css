@@ -6,11 +6,9 @@ aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
-    /* 1 */
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
 }
 
 aside img {
@@ -36,13 +34,31 @@ body header nav {
 
 }
 
-nav a {
-    color: #be0b0b;
-    padding: 1rem;
-    display: block;
+nav {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
 }
 
 main {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: #fff;
+    padding: 0.5em;
+    display: block;
+}
+
+h1 {
+    color: #222;
 }
