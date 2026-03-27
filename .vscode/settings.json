@@ -56,5 +56,11 @@
   "chat.agent.enabled": false,
   "chat.commandCenter.enabled": false,
   "inlineChat.accessibleDiffView": "off",
-  "terminal.integrated.initialHint": false
+  "terminal.integrated.initialHint": false,
+  "python-envs.defaultEnvManager": "ms-python.python:system",
+  "python.testing.pytestArgs": [
+    "main"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
 }
