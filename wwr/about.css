@@ -1,9 +1,11 @@
+
 :root {
-    --primary-color: #2E4053;
-    --accent1-color: #566573;
-    --accent2-color: #85C1E9;
-    --body-font: Arial, sans-serif;
-    --heading-font: 'Times New Roman', serif;
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --body-font: Arial, Helvetica, sans-serif;
+    --heading-font: 'Times New Roman', georgia, serif;
 }
 
 * {
@@ -11,7 +13,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color)
+}
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
