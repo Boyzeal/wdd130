@@ -38,10 +38,6 @@ nav, p, section, article {
     text-align: right;
 }
 
-.hero {
-    position: relative;
-}
-
 nav, p {
     background-color: var(--secondary-color);
     color: var(--accent1-color);
