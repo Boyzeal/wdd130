@@ -30,6 +30,12 @@ header, main, footer {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    position: center;
+}
+h3, h4 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    position: right;
 }
 
 nav, p, section, article {
@@ -42,8 +48,8 @@ nav, p {
     color: var(--accent1-color);
     border: var(--secondary-color) 1px solid;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    box-sizing: content-box;
-    align-self: last baseline;
+    align-self: bottom;
+    position:relative;
 }
 
 .hero img {
