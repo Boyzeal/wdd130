@@ -1,0 +1,58 @@
+/* CONTACT PAGE */
+
+/* Shared section width */
+.contact-info,
+.contact-form,
+.employees {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* Map styling (no inline CSS) */
+.contact-info iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* Employees grid */
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    text-align: center;
+}
+
+.employees img {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+/* Form layout */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Reusable input styling */
+.contact-form input,
+.contact-form textarea {
+    padding: 8px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 4px;
+}
+
+/* Button */
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--accent1-color);
+}
